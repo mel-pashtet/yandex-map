@@ -1,0 +1,1603 @@
+2014/10/24 10:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php?r=admin
+---
+2014/10/24 10:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/view')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/view
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:27:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in /var/www/yandex-oop/yii/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/list')
+#10 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yandexMap/index.php/regions/list
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/index
+---
+2014/10/24 11:28:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:28:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/index
+---
+2014/10/24 11:28:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:29:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:29:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:30:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/index')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/index
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/login
+---
+2014/10/24 11:31:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/list')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/list
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/index
+---
+2014/10/24 11:34:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('insertIntoDb')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/insertI...')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/insertIntoDb
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/create
+---
+2014/10/24 11:35:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '[[[55.83523746296469,37.40461730957031],[55.80199088727622,37.41' for key 'coordinates'. The SQL statement executed was: INSERT INTO `regions` (`coordinates`, `title`) VALUES (:yp0, :yp1).
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (75)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 11:35:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '[[[55.83523746296469,37.40461730957031],[55.80199088727622,37.41' for key 'coordinates'. The SQL statement executed was: INSERT INTO `regions` (`coordinates`, `title`) VALUES (:yp0, :yp1)' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php(75): CActiveRecord->save()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): RegionsController->actionInsertIntoDb()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('insertIntoDb')
+#13 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/insertI...')
+#14 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yandexMap/index.php/regions/insertIntoDb
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/create
+---
+2014/10/24 11:44:22 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php:82)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/loadPriceFromDb
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (82)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 12:00:19 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php:82)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/loadPriceFromDb
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (82)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 12:10:38 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php:84)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/loadPriceFromDb
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (84)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 12:11:25 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php:83)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/loadPriceFromDb
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (83)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 12:27:05 [error] [php] Undefined variable: model (/var/www/yandex-oop/yandexMap/protected/views/regions/create.php:128)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(869): RegionsController->renderFile()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(782): RegionsController->renderPartial()
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php(33): RegionsController->render()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): RegionsController->actionCreate()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#6 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#9 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#12 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#13 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/create
+in /var/www/yandex-oop/yandexMap/protected/views/regions/create.php (128)
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (33)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 12:27:23 [error] [exception.CException] exception 'CException' with message 'Property "Regions.username" is not defined.' in /var/www/yandex-oop/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('username')
+#1 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('username')
+#2 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(Regions), 'username')
+#3 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(Regions), 'username', Array)
+#4 /var/www/yandex-oop/yii/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(Regions), 'username', Array)
+#5 /var/www/yandex-oop/yandexMap/protected/views/regions/create.php(132): CActiveForm->textField(Object(Regions), 'username')
+#6 /var/www/yandex-oop/yii/framework/web/CBaseController.php(126): require('/var/www/yandex...')
+#7 /var/www/yandex-oop/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yandex...', Array, true)
+#8 /var/www/yandex-oop/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yandex...', Array, true)
+#9 /var/www/yandex-oop/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php(33): CController->render('create', Array)
+#11 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): RegionsController->actionCreate()
+#12 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/create')
+#22 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yandexMap/index.php/regions/create
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/index
+---
+2014/10/24 12:27:57 [error] [exception.CException] exception 'CException' with message 'Property "Regions.password" is not defined.' in /var/www/yandex-oop/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('password')
+#1 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('password')
+#2 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(Regions), 'password')
+#3 /var/www/yandex-oop/yii/framework/web/helpers/CHtml.php(1628): CHtml::activeInputField('password', Object(Regions), 'password', Array)
+#4 /var/www/yandex-oop/yii/framework/web/widgets/CActiveForm.php(771): CHtml::activePasswordField(Object(Regions), 'password', Array)
+#5 /var/www/yandex-oop/yandexMap/protected/views/regions/create.php(137): CActiveForm->passwordField(Object(Regions), 'password')
+#6 /var/www/yandex-oop/yii/framework/web/CBaseController.php(126): require('/var/www/yandex...')
+#7 /var/www/yandex-oop/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yandex...', Array, true)
+#8 /var/www/yandex-oop/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yandex...', Array, true)
+#9 /var/www/yandex-oop/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php(33): CController->render('create', Array)
+#11 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): RegionsController->actionCreate()
+#12 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/create')
+#22 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yandexMap/index.php/regions/create
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/index
+---
+2014/10/24 13:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('edit')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/page?view=about
+---
+2014/10/24 13:30:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/site/page?view=about
+---
+2014/10/24 13:30:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:30:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:30:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:30:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "extjs-4.1.0".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('extjs-4.1.0')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('extjs-4.1.0')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/extjs-4...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app.js".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('app.js')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('app.js')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/app.js')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "extjs-4.1.0".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('extjs-4.1.0')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('extjs-4.1.0')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/extjs-4...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "extjs-4.1.0".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('extjs-4.1.0')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('extjs-4.1.0')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/extjs-4...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "application.extensions.app".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('application.ext...')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('application.ext...')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/applica...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/application.extensions.app/.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "extjs-4.1.0".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('extjs-4.1.0')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('extjs-4.1.0')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/extjs-4...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "extjs-4.1.0".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('extjs-4.1.0')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('extjs-4.1.0')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/extjs-4...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:36:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "application.extensions.app".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('application.ext...')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('application.ext...')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/applica...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/application.extensions.app/.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "application.extensions.app.js".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('application.ext...')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('application.ext...')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/applica...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/application.extensions.app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/resources/css/ext-all.css".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/ext-all-dev.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/app.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "application.extensions.extjs-4.1.0.resources.css.ext-all.css".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('application.ext...')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('application.ext...')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/applica...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/application.extensions.extjs-4.1.0.resources.css.ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:48:41 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "getPathOfAlias".' in /var/www/yandex-oop/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yandex-oop/yandexMap/protected/views/regions/edit.php(14): CComponent->__call('getPathOfAlias', Array)
+#1 /var/www/yandex-oop/yandexMap/protected/views/regions/edit.php(14): CWebApplication->getPathOfAlias('application.ext...')
+#2 /var/www/yandex-oop/yii/framework/web/CBaseController.php(126): require('/var/www/yandex...')
+#3 /var/www/yandex-oop/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yandex...', NULL, true)
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yandex...', NULL, true)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(782): CController->renderPartial('edit', NULL, true)
+#6 /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php(68): CController->render('edit')
+#7 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): RegionsController->actionEdit()
+#8 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#17 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/edit')
+#18 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yandexMap/index.php/regions/edit
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/resources/css/ext-all.css".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/ext-all-dev.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/app.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/app.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/ext-all-dev.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/resources/css/ext-all.css".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/resources/css/ext-all.css".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/resources/css/ext-all.css
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/app.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/app.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 13:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "protected/extensions/extjs-4.1.0/ext-all-dev.js".' in /var/www/yandex-oop/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('protected/exten...')
+#1 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yandexMap/index.php/protected/extensions/extjs-4.1.0/ext-all-dev.js
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148535861&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148535860&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148535852&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148607767&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148607772&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148607770&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148618577&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148618582&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148618576&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148652410&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148652412&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148652413&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148688937&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148688936&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148688933&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148713245&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148713249&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148713250&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148747215&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148747218&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148747226&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148768941&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148768943&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148768944&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148779614&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148779616&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148779617&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148800345&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148800348&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414148800349&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414148809332&query=&page=1&start=0&limit=25&sort=%5B%7B%22property%22%3A%22id%22%2C%22direction%22%3A%22ASC%22%7D%5D
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414148810931&query=&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149243775&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149243771&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149243776&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149253764&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149253761&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149253763&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149303129&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149303126&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149303120&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149355109&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149355112&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:15:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149355114&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149547928&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149547937&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149547944&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149574228&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149574229&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149574225&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149587480&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149587484&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149587485&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149597247&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149597244&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149597248&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149613957&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149613958&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149613949&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149613957&page=1&start=0&limit=25
+---
+2014/10/24 14:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414149947624&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414149947626&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "price.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('price.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('price.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/price.p...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/price.php?_dc=1414149947620&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414150077381&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:27:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('getPrice')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/getPric...')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/getPrice?_dc=1414150077377&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150077382&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('getPrice')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/getPric...')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/getPrice?_dc=1414150083464&query=&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('getPrice')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/getPric...')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/regions/getPrice?_dc=1414150090406&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150090410&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414150090409&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150131099&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "region.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('region.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('region.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/region....')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/region.php?_dc=1414150131091&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150258485&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "updatePrice.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('updatePrice.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('updatePrice.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/updateP...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/updatePrice.php
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150316509&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150329050&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('priceRegion.php')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('priceRegion.php')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/priceRe...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/priceRegion.php?_dc=1414150744877&page=1&start=0&limit=25
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:42:50 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php:106)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(133): RegionsController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/yandex-oop/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/yandex-oop/yii/framework/web/filters/CInlineFilter.php(58): RegionsController->filterAccessControl()
+#4 /var/www/yandex-oop/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): RegionsController->runActionWithFilters()
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): RegionsController->run()
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/regions/getPriceRegion?_dc=1414150970231&page=1&start=0&limit=25
+in /var/www/yandex-oop/yandexMap/protected/controllers/RegionsController.php (106)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 14:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "updatePriceAndRegion.php".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('updatePriceAndR...')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('updatePriceAndR...')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('regions/updateP...')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/regions/updatePriceAndRegion.php
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 14:51:56 [error] [php] Trying to get property of non-object (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:40)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (40)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 14:52:27 [error] [php] Undefined index: id (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:40)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (40)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 15:17:53 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (26)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 15:20:50 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (26)
+in /var/www/yandex-oop/yandexMap/index.php (13)
