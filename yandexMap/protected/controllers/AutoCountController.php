@@ -12,6 +12,7 @@ class AutoCountController extends Controller
 	public function actionUpdatePriceRegion()
 	{
 		$attributes = $_POST;
+		$success = null;
 		
 		if( isset($attributes['region_id']) ) {
 			$id = $attributes['region_id'];

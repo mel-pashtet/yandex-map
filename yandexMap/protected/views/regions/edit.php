@@ -15,7 +15,10 @@
 				extend: 'Ext.data.Model',
 				fields: ['id', 'title']
 			});
-
+			var rowEditing = Ext.create('Ext.grid.plugin.RowEditing', {
+			        clicksToMoveEditor: 1,
+			        autoCancel: false
+			    });
 			var priceUrl = '<?= Yii::app()->createUrl('regions/getPrice'); ?>'
 			var priceStore = Ext.create('Ext.data.Store', {
 				model: 'Price',
@@ -61,7 +64,7 @@
 				    text: 'Добавить новую цену',
 				    handler : function() {
 				        var r = Ext.create('Price', {
-				            cost: 'New Price',
+				            cost: 'new price',
 				            
 				        });
 
@@ -69,14 +72,35 @@
 				        priceStore.commitChanges();
 				        
 				    }
-				}],
-				plugins: [
-				        Ext.create('Ext.grid.plugin.RowEditing', {
-				            clicksToEdit: 2,
-				            clicksToMoveEditor: 1
-				        })
-				],
+				}, {
+					text: 'Удалить цену',
+					handler: function() {
+						var sm = grid.getSelectionModel();
+					    rowEditing.cancelEdit();
+					    var selectionModelId = sm.getSelection()[0].data.id;
+					    Ext.Ajax.request({
+			    	        url: '<?= Yii::app()->createUrl('price/delete'); ?>',
+			    	        params: {
+			    	            id: selectionModelId,
+			    	        },
+    	        	        success: function(response){
+    	                		var msgd = Ext.decode(response.responseText);
+    	                		Ext.Msg.alert('Сохранение', msgd.msg);
 
+    	                		if(msgd.success == true) {
+    	                			// console.log(msgd.success)
+    	                			priceStore.remove(sm.getSelection());
+    	                			if(priceStore.getCount() > 0) {
+    	                			    sm.select(0);
+    	                			}
+
+    	                		}
+    	        	        },
+    	        	            	        	        
+			    	    });
+					},
+				}],
+				plugins: [rowEditing],
 				height: 200,
 				renderTo: Ext.get("ext-content"),
 			});
@@ -97,7 +121,7 @@
 
 			})
 			
-			var grid = Ext.create('Ext.form.Panel', {
+			var gridPriceIntoRegion = Ext.create('Ext.form.Panel', {
 				title: 'Сопоставление цен к регионам',
 				id: 'my-form',
 				items: [{

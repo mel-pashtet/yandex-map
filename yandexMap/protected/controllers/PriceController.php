@@ -7,8 +7,7 @@ class PriceController extends Controller
 		$this->render('index');
 	}
 
-	public function actionUpdate()
-	{
+	public function actionUpdate() {
 		$attributes = $_POST;
 		
 		if( isset($attributes['id']) ) {
@@ -35,5 +34,33 @@ class PriceController extends Controller
 		print json_encode(array(
 			"success" => $success
 		));
+	}
+
+	public function actionDelete() {
+		$attributes = $_POST;
+		if(isset($_POST['id'])) {
+			$id = $_POST['id'];
+			$model = Price::model()->findByPk($id);
+
+			if($model) {
+				
+				$msg = 'цена удалена';
+				$success = true;
+
+				try {
+				   $model->delete();
+				} catch (Exception $e) {
+				    $msg = 'невозможно удалить цену, возможно она используеться';
+				    $success = false;
+				}
+				
+				print json_encode(array(
+					"success" => $success,
+					"msg" => $msg,
+				));
+				
+			}
+		}
+
 	}
 }

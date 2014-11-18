@@ -1601,3 +1601,444 @@ in /var/www/yandex-oop/yandexMap/index.php (13)
 2014/10/24 15:20:50 [warning] [application] Failed to set unsafe attribute "id" of "Price".
 in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (26)
 in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 16:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158345803
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158372995
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:46:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158397428
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158544247
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158578722
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:50:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158603216
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:50:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158609947
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158753873
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158771655
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:53:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158780425
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158783689
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158787298
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158799992
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:53:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /var/www/yandex-oop/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#3 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete?_dc=1414158804202
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:58:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 16:58:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 16:58:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 16:58:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:00:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:00:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:04:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:04:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:05:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:05:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:06:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:06:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:07:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (46)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:07:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23' in /var/www/yandex-oop/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/yandex-oop/yii/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('23')
+#2 /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php(46): CActiveRecord->delete()
+#3 /var/www/yandex-oop/yii/framework/web/actions/CInlineAction.php(49): PriceController->actionDelete()
+#4 /var/www/yandex-oop/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yandex-oop/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/yandex-oop/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('price/delete')
+#9 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yandex-oop/yandexMap/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yandexMap/index.php/price/delete
+HTTP_REFERER=http://yandex-oop/yandexMap/index.php/regions/edit
+---
+2014/10/24 17:10:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (47)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:13:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (48)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:14:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:14:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:15:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:18:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:19:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:19:08 [error] [php] Undefined variable: success (/var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php:56)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): PriceController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): PriceController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): PriceController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/price/delete
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (56)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:19:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:19:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:20:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:20:36 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (49)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:27:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:27:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:28:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:29:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:29:57 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:30:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:31:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:32:06 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/24 17:32:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=23.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:54:07 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:54:14 [error] [php] Undefined index: price_id (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:21)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (21)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:54:18 [error] [php] Undefined index: price_id (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:21)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (21)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:54:21 [error] [php] Undefined index: price_id (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:21)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (21)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:54:35 [error] [php] Undefined variable: success (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:39)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (39)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:55:13 [error] [php] Undefined variable: success (/var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php:39)
+Stack trace:
+#0 /var/www/yandex-oop/yii/framework/web/CController.php(286): AutoCountController->runAction()
+#1 /var/www/yandex-oop/yii/framework/web/CController.php(265): AutoCountController->runActionWithFilters()
+#2 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(282): AutoCountController->run()
+#3 /var/www/yandex-oop/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yandex-oop/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/yandex-oop/yandexMap/index.php(13): CWebApplication->run()
+REQUEST_URI=/yandexMap/index.php/autoCount/updatePriceRegion
+in /var/www/yandex-oop/yandexMap/protected/controllers/AutoCountController.php (39)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 09:55:40 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 10:32:01 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 10:32:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=26.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 10:55:41 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test`.`auto_count`, CONSTRAINT `fk_auto_count_2` FOREIGN KEY (`price_id`) REFERENCES `price` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: DELETE FROM `price` WHERE `price`.`id`=26.
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (51)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 10:55:54 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
+2014/10/27 10:56:01 [warning] [application] Failed to set unsafe attribute "id" of "Price".
+in /var/www/yandex-oop/yandexMap/protected/controllers/PriceController.php (25)
+in /var/www/yandex-oop/yandexMap/index.php (13)
